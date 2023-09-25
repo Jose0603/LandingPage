@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Fade from "react-reveal";
 
 class About extends Component {
@@ -28,7 +28,7 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>Sobre Mi</h2>
 
               <p>{bio}</p>
               <div className="row">
@@ -49,11 +49,11 @@ class About extends Component {
                   </p>
                 </div>
                 <div className="columns download">
-                  <p>
+                  {/* <p>
                     <a href={resumeDownload} className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
